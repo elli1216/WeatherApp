@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private Button checkWeatherBtn, clearBtn;
     private TextView tvTemp, tvMinTemp, tvMaxTemp, tvHumidity, tvWeather, tvDescription;
 
-    private final String API_KEY = "94f68b65a17f9b013dc0a1ca54457695";
+    private final String API_KEY = "Insert OpenWeatherMap API Key here.";
     private final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric";
 
     private RequestQueue requestQueue;
